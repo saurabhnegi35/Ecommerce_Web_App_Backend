@@ -9,6 +9,11 @@ require("dotenv").config();
 
 const app = express();
 
+//Middlewares
+app.use(morgan("dev"));
+app.use(bodyParser.json({ limit: "2mb" }));
+app.use(cors());
+
 app.listen(process.env.PORT, () => {
   console.log(`Listening on port ${process.env.PORT}`);
 });
