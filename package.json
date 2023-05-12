@@ -2,7 +2,7 @@
   "name": "e-commerce_website_backend",
   "version": "1.0.0",
   "description": "This is backend for E-Commerce Website",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
